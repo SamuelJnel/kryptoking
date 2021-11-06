@@ -5,9 +5,26 @@ body {
   background-image: url("https://i.imgur.com/vZKNw1t.jpg");
 }
 
+.container-img {
+  min-height: 95vh;
+}
+
 main {
   flex: 1 0 auto;
 }
+
+/* .container-img:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url("https://i.imgur.com/vZKNw1t.jpg");
+  background-size: cover;
+  background-position: top center;
+  opacity: ;
+} */
 
 footer.page-footer {
   padding-top: 0;
@@ -82,4 +99,14 @@ p {
 
 .date-index {
   margin-bottom: 5px;
+}
+
+.about-text {
+  margin-top: 70px;
+  padding: 15px;
+  line-height: 1.6;
+}
+
+.center-text {
+  text-align: center;
 }
